@@ -1,12 +1,75 @@
-Name,Room,Roommates,Cost
-Adrienne,Room 1,Coco,600
-Jamieson,Room 2,Ted,600
-Quynn,Room 3,Lynn,500
-Frank,Double 1,Frank,450
-D,Daybed 1,"S,E,D",400
-E,Daybed 1,"D,E,S",400
-S,Daybed 1,"D,E,S",400
-Annika,Double 1,Frank,450
-Ted,Room 2,Jamieson,600
-Lynn,Room 3,Quynn,500
-Coco,Room 1,Adrienne,600
+Name,Room,Roommates,Cost (Euro)
+Ba,Room 1,"Katherine, Sadie, Coco",300
+Katherine,Room 1,"Ba, Sadie, Coco",300
+Sadie,Room 1,"Ba, Katherine, Coco",300
+Coco,Room 1,"Ba, Katherine, Sadie",300
+Quynn,Room 2,Ted,400
+Ted,Room 2,Quynn,400
+Franklin,Room 3,Annika,400
+Annika,Room 3,Franklin,400
+Emma L,Room 4,"Sydney, Denise",333
+Sydney,Room 4,"Emma L, Denise",333
+Denise,Room 4,"Emma L, Sydney",333
+Papa,Room 5,—,600
+Bac Nin,Room 6,Bac My,400
+Bac My,Room 6,Bac Nin,400
+Co Tu,Room 7,Uncle Dwayne,400
+Uncle Dwayne,Room 7,Co Tu,400
+Amber,Room 8,Sierra,400
+Sierra,Room 8,Amber,400
+Ethan,Room 9,"Nathan, Jack",333
+Nathan,Room 9,"Ethan, Jack",333
+Jack,Room 9,"Ethan, Nathan",333
+Bac Bu,Room 10,,600
+Aunt Patricia,Room 11,Uncle Mike,400
+Uncle Mike,Room 11,Aunt Patricia,400
+Co Holly,Room 12,Chu Vinh,400
+Chu Vinh,Room 12,Co Holly,400
+Daniel,Room 13,Carla,400
+Carla,Room 13,Daniel,400
+Sammy,Room 14,Carley,400
+Carley,Room 14,Sammy,400
+Mickey,Room 15,,600
+Aunt Lynny,Room 16,Uncle Scott,400
+Uncle Scott,Room 16,Aunt Lynny,400
+Nini,Room 17,Dustin,400
+Dustin,Room 17,Nini,400
+Bober,Room 18,Lyndsay,400
+Lyndsay,Room 18,Bober,400
+Aunt Mary,Room 19,"Uncle Gary, Ellena, Emma H",300
+Uncle Gary,Room 19,"Aunt Mary, Ellena, Emma H",300
+Ellena,Room 19,"Aunt Mary, Uncle Gary, Emma H",300
+Emma H,Room 19,"Aunt Mary, Uncle Gary, Ellena",300
+Adrianna,Room 20,Alek,400
+Alek,Room 20,Adrianna,400
+Steph,Room 21,"Lilly, Olivia",333
+Lilly,Room 21,"Steph, Olivia",333
+Olivia,Room 21,"Steph, Lilly",333
+Jordan,Room 22,"Brigham, Trevor, Harrison",300
+Brigham,Room 22,"Jordan, Trevor, Harrison",300
+Trevor,Room 22,"Jordan, Brigham, Harrison",300
+Harrison,Room 22,"Jordan, Brigham, Trevor",300
+Adrienne,Room 23,Jamieson,400
+Jamieson,Room 23,Adrienne,400
+Edward,Room 24,Lynn,400
+Lynn,Room 24,Edward,400
+Jess,Room 25,Andy,400
+Andy,Room 25,Jess,400
+Emily,Room 26,Matty,400
+Matty,Room 26,Emily,400
+Aunty Jane,Room 27,"Uncle Kabir, Kingston",333
+Uncle Kabir,Room 27,"Aunty Jane, Kingston",333
+Kingston,Room 27,"Aunty Jane, Uncle Kabir",333
+Jono,Room 28,Crish,400
+Crish,Room 28,Jono,400
+Tracy,Room 29,Michelle,400
+Michelle,Room 29,Tracy,400
+Uncle Arokia,Room 30,,600
+Nana,Room 31,,600
+Matej,Room 32,"Jorgen, Aidan",333
+Jorgen,Room 32,"Matej, Aidan",333
+Aidan,Room 32,"Matej, Jorgen",333
+Stephen,Room 33,Jenn,400
+Jenn,Room 33,Stephen,400
+Tomasso,Room 34,Marty,400
+Marty,Room 34,Tomasso,400

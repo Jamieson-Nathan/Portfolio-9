@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-```{r setup}
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
 library(readr)
 library(DT)
 
@@ -14,13 +14,17 @@ accom <- read_csv("accommodation.csv")
 
 ## Find Your Room
 
-Type your **first name** into the search bar below to see where you're staying and what it costs.
+Thank you so much for RSVP'ing yes! We are so excited to have you here. Note that this is an approximate display of the room assignments and costs we are expecting. The purpose of this is to help make sure everyone is happy and accounted for! The exact payment method will be confirmed closer to the date. Please reach out to us as soon as possible if anything looks amiss, if you would prefer alternate room assignments, or if there is any other issue. In addition, if you are looking to opt out of the room assignment process and find your own accommodation, please let us know as soon as possible.
 
-```{r room-lookup, echo=FALSE}
+Type your **first name** into the search bar below to see where you're staying and what it costs (per person for the total four nights).
+
+```{r room-lookup, echo=FALSE, message=FALSE, warning=FALSE}
 datatable(
   accom,
-  options = list(pageLength = 10),
-  rownames = FALSE,
-  filter = "top"
+  options = list(
+    pageLength = 10,
+    filter = "none"  # disables per-column filters
+  ),
+  rownames = FALSE
 )
 ```
