@@ -1,0 +1,26 @@
+---
+title: "Wedding Accommodation Lookup"
+format: html
+editor: visual
+---
+
+```{r setup}
+library(readr)
+library(DT)
+
+# Load the data
+accom <- read_csv("accommodation.csv")
+```
+
+## Find Your Room
+
+Type your **first name** into the search bar below to see where you're staying and what it costs.
+
+```{r room-lookup, echo=FALSE}
+datatable(
+  accom,
+  options = list(pageLength = 10),
+  rownames = FALSE,
+  filter = "top"
+)
+```

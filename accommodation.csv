@@ -1,0 +1,12 @@
+Name,Room,Roommates,Cost
+Adrienne,Room 1,Coco,600
+Jamieson,Room 2,Ted,600
+Quynn,Room 3,Lynn,500
+Frank,Double 1,Frank,450
+D,Daybed 1,"S,E,D",400
+E,Daybed 1,"D,E,S",400
+S,Daybed 1,"D,E,S",400
+Annika,Double 1,Frank,450
+Ted,Room 2,Jamieson,600
+Lynn,Room 3,Quynn,500
+Coco,Room 1,Adrienne,600
